@@ -1,1 +1,7 @@
-language: android
+language: node_js
+node_js:
+- "0.11"
+install:
+- npm install -g cordova
+- cordova platform add android
+- cordova run android
