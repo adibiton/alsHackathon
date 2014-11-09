@@ -5,4 +5,4 @@ before_install:
 - npm install -g cordova
 - chmod +x /home/travis/build/adibiton/alsHackathon/platforms/android/cordova
 
-script: cordova run android
+script: cordova build android
