@@ -4,4 +4,4 @@ node_js:
 before_install:
 - npm install -g cordova
 
-script: ./cordova run android
+script: cordova run android
