@@ -1,8 +1,7 @@
 language: node_js
 node_js:
-- "0.11"
+- "0.10"
 before_install:
 - npm install -g cordova
-- chmod +x /home/travis/build/adibiton/alsHackathon/platforms/android/cordova
 
 script: cordova build android
